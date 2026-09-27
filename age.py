@@ -70,7 +70,7 @@ def main():
     year_difference = date_today[2] - dob[2]
     if days_in_year(date_today) < days_in_year(dob):
         year_difference -= 1
-    print(f"Your are {year_difference} years old!")
+    print(f"You are {year_difference} years old!")
 
 
 main()
